@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Bright-Future Online Learning</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link
+    href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic'
+    rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="js/register.js"></script>
+</head>
+
+<body>
+  <!--Navigation Bar -->
+  <div class="main-navigation navbar-fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default ">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Bright-Future Online Learning</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#myNavbar"
+          aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item  ">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="login.html">Login</a>
+            </li>
+            <li class="nav-item active ">
+              <a class="nav-link " href="register.html">Register</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link " href="aboutus.html">About Us</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+  </div>
+
+
+
+ 
+
+  <div class="container">
+    <div id="register" class="signin-card">
+        <div class="form-title1">
+            <div class="logo-image">
+                <img src="img/logo.png" alt="Logo" title="Logo" width="138">
+              </div>
+          <span class="form-title">
+            Register
+          </span>
+        </div>
+
+      <form enctype="multipart/form-data" id="imageUploadForm">
+        <input class="form-control" type="file" name="imageFile" id="userImage">
+      </form>
+      <br>
+      <form class="userRegisterForm">
+        <div id="form-register-first-name" class="form-group">
+          <input id="first_name" class="form-control" name="first_name" type="text" required="required"
+            placeholder="First Name" />
+          <br>
+        </div>
+
+        <div id="form-register-last-name" class="form-group">
+          <input id="last_name" class="form-control" name="last_name" type="text" required="required"
+            placeholder="Last Name" />
+          <br>
+        </div>
+
+        <div id="form-register-username" class="form-group">
+          <input id="username" class="form-control" name="username" type="text" required="required"
+            placeholder="Username" />
+          <br>
+        </div>
+
+        <div id="form-register-password" class="form-group">
+          <input id="password" class="form-control" name="password" type="password" required="required"
+            placeholder="Password">
+          <br>
+        </div>
+
+        <div id="form-register-phoneno" class="form-group">
+          <input id="phone_no" class="form-control" name="phone_no" type="text" required="required"
+            placeholder="Phone Number">
+          <br>
+        </div>
+
+        <div id="form-register-permanent-address" class="form-group">
+          <input id="permanent_address" class="form-control" name="permanent_address" type="text" required="required"
+            placeholder="Permanent Address">
+          <br>
+        </div>
+
+        <div id="form-register-email" class="form-group">
+          <input id="email" class="form-control" name="email" type="email" required="required"
+            placeholder="Email Address">
+          <br>
+        </div>
+
+
+        <div id="form-register-usertype" class="form-group">
+          <Label id="label">What do you want to be?</Label>
+          <select class="listings" id="user_type" name="user_type"  placeholder="User Type" required="required">
+
+            <option value="user">User/Student</option>
+            <option value="host">Host/Teacher</option>
+
+          </select>
+        </div>
+
+
+        <div id="form-register-gender" class="form-group">
+          <LABEL id="label">Gender </LABEL>
+          <div class="form-check">
+            <label id="label" class="form-check-label">
+              <input type="radio" id="gender" class="form-check-input" value="male" name="male">Male
+            </label>
+          </div>
+          <div class="form-check">
+            <label  id="label" class="form-check-label">
+              <input type="radio" id="gender" class="form-check-input" value="female" name="female">Female
+            </label>
+          </div>
+        </div>
+        <div id="image_display" class="form-group">
+        </div>
+        <div class="form-group">
+          <button class="btn btn-block  submitButton" type="submit" name="Submit" a>Register</button>
+        </form>
+         
+        </div>
+
+       
+    </div>
+
+  </div>
+
+  </div>
+  </div>
+
+
+  <!--Bottom Footer-->
+<div class="bottom section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="copyright">
+          <p>© <span>2020</span> <a href="#" class="transition">Bright-Future Online Learning</a>Bright-Future All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Bottom Footer-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>
