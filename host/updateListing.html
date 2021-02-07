@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <title>Bright-Future Online Learning</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,600|Raleway:600,300|Josefin+Slab:400,700,600italic,600,400italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> 
+  <script src="../js/host/updateListing.js">  </script> 
+
+</head>
+
+<body>
+<!--Navigation Bar -->
+<div class="main-navigation navbar-fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default">
+  <div class="container">
+   
+  <a class="navbar-brand" href="#">Bright-Future Online Learning</a>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="myNavbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="myNavbar">
+    
+     <ul class="navbar-nav ml-auto">
+      <li class="nav-item  ">
+        <a class="nav-link" href="hostDashboard.html">Home</a>
+      </li>
+      
+      <li class="nav-item active">
+        <a class="nav-link "href="addListings.html">Add Listings</a>
+      </li>
+
+      <li class="nav-item ">
+        <a class="nav-link "href="bookingEnquiries.html">Booking Enquiries</a>
+      </li>
+      <li class="nav-item ">
+          <div class="userthumb">
+              
+          </div>
+        </li>
+       <li class="nav-item dropdown " id="profileName">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="userprofile.html">Profile</a>
+          
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="" id="logout">Logout</a>
+        </div>
+      </li>
+      
+    </ul>
+  </div>
+
+</nav>
+</div>
+
+
+     
+
+  
+ 
+<div class="container">
+
+    <div class="container-listings">
+
+      <div class="wrap-listings">
+        <div class="form-title1">
+          <div class="logo-image">
+            <img src="../img/logo.png" alt="Logo" title="Logo" width="138">
+          </div>
+          <span class="form-title">
+            Update Listings
+          </span>
+        </div>
+
+  <form class="form-image" enctype="multipart/form-data" id="imageUploadForm">
+ <div class="image">
+     <span class="label" id="image_display"></span>
+  <input class="listing" type="file" name="imageFile" id="listingImage"> 
+  </div>
+</form>
+
+      <form class="form updateListing">
+        <div class="wrap ">
+          <span class="label">Course Label:</span>
+          <input class="listings" name="place_name" type="text"  required="required" placeholder=" Course Label" id="place_name" name="name"  >
+          <span class="focus"></span>
+        </div>  
+
+    <div class="wrap ">
+          <span class="label">Batch  Name:</span>
+          <input class="listings" id="city" type="text" name="city" required="required" placeholder="Batch Name">
+          <span class="focus"></span>
+        </div>
+
+
+        <div class="wrap ">
+          <span class="label">Instructor Name:</span>
+          <input class="listings" id="streetName" type="text" name="streetName" required="required" placeholder="Instructor Name">
+          <span class="focus"></span>
+        </div>
+
+        <div class="wrap ">
+          <span class="label">Price:</span>
+          <input class="listings" id="price" type="text" name="price" required="required" placeholder="Price">
+          <span class="focus"></span>
+        </div>
+
+        <div class="wrap ">
+          <span class="label">No of credit:</span>
+           <input id="no_of_persons" class="listings" name="no_of_persons" type="number"   required="required" placeholder="No of Credit" />
+          <span class="focus"></span>
+        </div>
+
+        <div class="wrap ">
+          <span class="label">No of hours:</span>
+          <input class="listings" id="no_of_rooms" name="no_of_rooms" type="number"   required="required" placeholder="No of hours">
+         <span class="focus"></span>
+        </div>
+
+        <div class="wrap ">
+          <span class="label">Course Type:</span>
+          <select class="listings" id="food_type" name="food_type" placeholder="Course Type">
+                               
+                                <option value="Vegiterian">Computing</option>
+                                <option value="Non- Veg">Networking</option>
+                                
+                            </select>
+          <span class="focus"></span>
+        </div>
+
+        <div class="wrap ">
+          <span class="label">Faculty:</span>
+          <input class="listings"  id="facilities" name="facilities" type="text"  required="required" placeholder="Faculty">
+          <span class="focus"></span>
+        </div>
+
+     <div class="wrap">
+  <span class="label">Notes:</span>
+  <textarea class="listings" id="description" rows="5" required="required" placeholder="Notes"></textarea>
+     </div>
+
+        <div class="container-form-btn">
+          <button class="submitButton" type="submit" name="Submit">
+            <span>
+              Submit
+            </span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+  <!--Bottom Footer-->
+<div class="bottom section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <div class="copyright">
+          <p>© <span>2020</span> <a href="#" class="transition">Bright-Future Online Learning</a>Bright-Future Online Learning All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--Bottom Footer-->
+
+
+
+
+	
+<script src="../js/jquery.min.js"></script>
+<script src="../js/custom.js"></script>
+  <script src="../js/bootstrap.min.js"></script>  
+
+</body>  
+</html> 
