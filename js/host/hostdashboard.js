@@ -83,9 +83,9 @@ $(document).ready(function () {
   
         food_type = "";
         if ((res[index].food_type) == "Non- Veg") {
-          food_type = "<button class='btn-danger'>Non-Veg</button>";
+          food_type = "<button class='btn-danger'>Computing</button>";
         } else {
-          food_type = "<button class='btn-success'>Vegiterian</button>";
+          food_type = "<button class='btn-success'>Networking</button>";
         }
   
         booking_status = "";
