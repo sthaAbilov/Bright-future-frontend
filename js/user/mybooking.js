@@ -70,7 +70,15 @@ $(document).ready(function () {
         }
 
 
-      
+        $('#mybooking').append('<tr>' +
+          '<td>' + res[index].place_name + '</td>' +
+          '<td>' + res[index].city + '</td>' +
+          '<td>' + res[index].streetName + '</td>' +
+          '<td>$ ' + res[index].price + '</td>' +
+          '<td>' + res[index].food_type + '</td>' +
+          '<td>' +  status + '</td>' +
+          '<td>' +  button + '</td>' +
+          '</tr>');
 
           
 
