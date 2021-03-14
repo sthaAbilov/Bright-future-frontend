@@ -1,7 +1,7 @@
 
 body {
     font-family: "Roboto", 'Helvetica Neue, Helvetica, Arial', sans-serif; 
-    background:   #00A86B; 
+    background:   #e1ec81; 
     height: 100%;
     
 }
@@ -10,11 +10,11 @@ body {
     
 
 .signin-card {
-  max-width: 350px;
+  max-width: 90%;
   border-radius: 2px;
   margin: 20px auto;
   padding: 20px;   
-  background-color: #006B3C;
+  background-color: #0e102b;
     border-color: rgba(231, 231, 231, 0.33);
   box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
   0 6px 6px rgba(0, 0, 0, .23); // shadow depth 3
@@ -22,6 +22,7 @@ body {
 
 .logo-image{
     text-align: center;
+    padding-bottom: 15px;
  
    
 }
@@ -163,7 +164,7 @@ border: 1px solid #E74C3C;
 }
 
 .navbar-default .navbar-brand {
-    color: #e43c5c;
+    color: #FA8072;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -453,7 +454,7 @@ button:hover {
 
 .wrap-listings {
   width: 670px;
-  background: #fff;
+  background:#0e102b;
   overflow: hidden;
   position: relative;
   border-radius: 2px;
